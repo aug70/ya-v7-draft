@@ -286,11 +286,15 @@ footer.page-footer.font-small.blue {
     font-weight: 500;
 }
 
-.nav.nav-tabs .nav-link.active, .nav.nav-tabs .nav-link:hover {
+.nav.nav-tabs .nav-link.active {
     border: none;
     border-bottom: 2px solid #008cba;
     background-color: transparent;
     color: #008cba;
+}
+
+.nav.nav-tabs .nav-link:hover {
+    background-color: #F5F5F5;
 }
 
 .nav.nav-tabs .nav-link.active {
