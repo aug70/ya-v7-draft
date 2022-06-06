@@ -1,0 +1,7 @@
+- All pages must be responsive and render correctly for different devices, like iPad, iPhone etc. 
+- There's still vertical scroll on home page. There shouldn't be any scrolls.
+- Footer links look different than navbar links, There must be a general consistency with style all over the pages.
+- Home page "Paintings" subtitle looks different in https://ya-com-v7.web.app/. 
+- Footer is fixed and doesn't move with the scroll. Footer must be at the bottom.
+
+
