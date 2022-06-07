@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> yalimaytul </title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.yalimaytul.com/favicon.ico"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Photoswipe CSS -->
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/default-skin/default-skin.min.css"/>
+
+    <!-- Custom styles for this template -->
+    <link href="../../main.css" rel="stylesheet"/>
+</head>
+<body class="info-page">
+<div class="content-wrapper">
+    <div class="container">
+
+        <!--    Navbar Starts-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">yalimaytul.com</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Galleries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="information.html">Information</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                Links
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Yalim Aytul Resume</a></li>
+                                <li><a class="dropdown-item" href="#">API</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--    Navbar Ends -->
+    </div>
+
+    <!--    Content Starts-->
+    <div class="container-fluid detail-content">
+        <div class="container">
+            <h1 class="gallery-detail-title"> Galleries </h1>
+            <p> Pastel and acrylic paintings. </p>
+
+            <!-- Root element of PhotoSwipe. Must have class pswp. -->
+            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+                <!-- Background of PhotoSwipe.
+                         It's a separate element as animating opacity is faster than rgba(). -->
+                <div class="pswp__bg"></div>
+                <!-- Slides wrapper with overflow:hidden. -->
+                <div class="pswp__scroll-wrap">
+                    <!-- Container that holds slides.
+                              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                              Don't modify these 3 pswp__item elements, data is added later on. -->
+                    <div class="pswp__container">
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                    </div>
+                    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+                    <div class="pswp__ui pswp__ui--hidden">
+                        <div class="pswp__top-bar">
+                            <!--  Controls are self-explanatory. Order can be changed. -->
+                            <div class="pswp__counter"></div>
+                            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                            <button class="pswp__button pswp__button--share" title="Share"></button>
+                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                            <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                            <!-- element will get class pswp__preloader--active when preloader is running -->
+                            <div class="pswp__preloader">
+                                <div class="pswp__preloader__icn">
+                                    <div class="pswp__preloader__cut">
+                                        <div class="pswp__preloader__donut"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                            <div class="pswp__share-tooltip"></div>
+                        </div>
+                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                        </button>
+                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                        </button>
+                        <div class="pswp__caption">
+                            <div class="pswp__caption__center text-center"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <!-- Galley wrapper that contains all items -->
+                    <div id="gallery" class="gallery-detail">
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/101.png" class="gallery-image-detail"
+                               data-caption="Painting 101 ca. 1998, 30x100 Private collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/101.png"
+                                     alt="Painting 101 ca. 1998, 30x100 Private collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/102.png" class="gallery-image-detail"
+                               data-caption="Painting 102 ca. 1998, 70x100 Bumin collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/102.png"
+                                     alt="Painting 102 ca. 1998, 70x100 Bumin collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/103.png" class="gallery-image-detail"
+                               data-caption="Painting 103 ca. 1998, 70x100 Aytul Collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/103.png"
+                                     alt="Painting 103 ca. 1998, 70x100 Aytul Collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/104.png" class="gallery-image-detail"
+                               data-caption="Painting 104 ca. 1998, 70x100 Aytul Collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/104.png"
+                                     alt="Painting 104 ca. 1998, 70x100 Aytul Collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/105.png" class="gallery-image-detail"
+                               data-caption="Painting 105 ca. 1998, 70x100 Private collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/105.png"
+                                     alt="Painting 105 ca. 1998, 70x100 Private collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/106.png" class="gallery-image-detail"
+                               data-caption="Painting 106 ca. 1998, 70x100 Private collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/106.png"
+                                     alt="Painting 106 ca. 1998, 70x100 Private collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/107.png" class="gallery-image-detail"
+                               data-caption="Painting 107 ca. 1998, 70x100 Private collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/107.png"
+                                     alt="Painting 107 ca. 1998, 70x100 Private collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/108.png" class="gallery-image-detail"
+                               data-caption="Painting 108 ca. 1998, 70x100 Private collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/108.png"
+                                     alt="Painting 108 ca. 1998, 70x100 Private collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/109.png" class="gallery-image-detail"
+                               data-caption="Painting 109 ca. 1999, 70x100 Private collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/109.png"
+                                     alt="Painting 109 ca. 1999, 70x100 Private collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/110.png" class="gallery-image-detail"
+                               data-caption="Painting 110 ca. 1999, 70x100 Aytul collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/110.png"
+                                     alt="Painting 110 ca. 1999, 70x100 Aytul collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/111.png" class="gallery-image-detail"
+                               data-caption="Painting 111 ca. 1997, 70x100 Private collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/111.png"
+                                     alt="Painting 111 ca. 1997, 70x100 Private collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/112.png" class="gallery-image-detail"
+                               data-caption="Painting 112 ca. 2001, 100x120 Private collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/112.png"
+                                     alt="Painting 112 ca. 2001, 100x120 Private collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/113.png" class="gallery-image-detail"
+                               data-caption="Painting 113 ca. 1997, 70x100 Private collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/113.png"
+                                     alt="Painting 113 ca. 1997, 70x100 Private collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/114.png" class="gallery-image-detail"
+                               data-caption="Painting 114 ca. 1997, 70x100 Private collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/114.png"
+                                     alt="Painting 114 ca. 1997, 70x100 Private collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/115.png" class="gallery-image-detail"
+                               data-caption="Painting 115 ca. 1999, 50x70 Private collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/115.png"
+                                     alt="Painting 115 ca. 1999, 50x70 Private collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/116.png" class="gallery-image-detail"
+                               data-caption="Painting 116 ca. 1999, 70x100 Private collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/116.png"
+                                     alt="Painting 116 ca. 1999, 70x100 Private collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/117.png" class="gallery-image-detail"
+                               data-caption="Painting 117 ca. 1999, 70x100 Private collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/117.png"
+                                     alt="Painting 117 ca. 1999, 70x100 Private collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/118.png" class="gallery-image-detail"
+                               data-caption="Painting 118 ca. 1999, 70x100 Private collection" data-width="1200"
+                               data-height="900" itemprop="contentUrl">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/118.png"
+                                     alt="Painting 118 ca. 1999, 70x100 Private collection"/>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://cdn.yalimaytul.com/galleries/XL/119.png" class="gallery-image-detail"
+                               data-caption="Painting 119 ca. 1999, 100x120 Private collection" data-width="1200"
+                               data-height="900">
+                                <!-- Thumbnail -->
+                                <img src="https://cdn.yalimaytul.com/galleries/T/119.png"
+                                     alt="Painting 119 ca. 1999, 100x120 Private collection"/>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <!--    Content Ends-->
+
+            <!-- Footer Starts -->
+            <footer class="text-center text-lg-start bg-light text-muted">
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                    <div class="container text-center text-md-start px-0 py-0">
+                        <div class="row mt-3">
+                            <div class="col-md-3 col-lg-4 col-xl-4 mb-4">
+                                <p> © 1998-2022 created by
+                                    <a href="https://resume.yalimaytul.com" target="_blank"
+                                       class="text-reset text-decoration-underline"> YALIM AYTUL </a>
+                                    <br>
+                                    <img alt="Creative Commons License" class="footer-image"
+                                         src="https://cdn.yalimaytul.com/images/88x31.png"/>
+                                </p>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mx-auto">
+                                <ul class="list-unstyled mb-0">
+                                    <li><a class="text-reset" href="/">Home</a></li>
+                                    <li><a class="text-reset" href="/galleries">Galleries</a>
+                                    </li>
+                                    <li><a class="text-reset"
+                                           href="/information">Information</a></li>
+                                    <li><a href="" target="_blank" class="text-reset">API</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4 mb-md-0 mx-auto">
+                                <ul class="list-unstyled">
+                                    <li><small>Version: 1.0.0</small></li>
+                                    <li><small>Last updated: 2022-05-04T20:22:00+00:00</small></li>
+                                    <li><small>Build commit: f8cc668b</small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+            <!-- Footer Ends -->
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
+        <script>
+            'use strict';
+            (function ($) {
+
+                // Init empty gallery array
+                var container = [];
+
+                // Loop over gallery items and push it to the array
+                $('#gallery').find('figure').each(function () {
+                    var $link = $(this).find('a'),
+                        item = {
+                            src: $link.attr('href'),
+                            w: $link.data('width'),
+                            h: $link.data('height'),
+                            title: $link.data('caption')
+                        };
+                    container.push(item);
+                });
+
+                // Define click event on gallery item
+                $('.gallery-image-detail').click(function (event) {
+
+                    // Prevent location change
+                    event.preventDefault();
+
+                    // Define object and gallery options
+                    var $pswp = $('.pswp')[0],
+                        options = {
+                            index: $(this).parent('figure').index(),
+                            bgOpacity: 0.85,
+                            showHideOpacity: true
+                        };
+
+                    // Initialize PhotoSwipe
+                    var gallery = new PhotoSwipe($pswp, PhotoSwipeUI_Default, container, options);
+                    gallery.init();
+                });
+
+            }(jQuery));
+        </script>
+</body>
+</html>
