@@ -1,7 +1,16 @@
-- All pages must be responsive and render correctly for different devices, like iPad, iPhone etc. 
-- There's still vertical scroll on home page. There shouldn't be any scrolls.
+
+!!!NOT FINAL!!!
+
+- All pages must be responsive and render correctly for different devices, like iPad, iPhone etc.
+- There's still vertical scroll on home page. There shouldn't be any scrolls vertical or horizontal on the home page.
 - Footer links look different than navbar links, There must be a general consistency with style all over the pages.
-- Home page "Paintings" subtitle looks different in https://ya-com-v7.web.app/. 
-- Footer is fixed and doesn't move with the scroll. Footer must be at the bottom.
+- Home page "Paintings" subtitle looks different in https://ya-com-v7.web.app/.
+- Footer is fixed and doesn't move with the scroll. Footer must be at the bottom and not fixed .
+
+- The layout looks different between https://ya-com-v7.web.app/ and https://v7.yalimaytul.com I don't know what I missed when merging stuff from HTML to Angular. Eventually they need to look same. Particularly the navbar looks different.
+
+
+Note: I'm adding to this list as I see minor things in the pages.
+
 
 
