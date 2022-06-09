@@ -34,6 +34,7 @@ body, html {
 }
 
 .content-box {
+    left: 40px;
     position: relative;
     max-width: 700px;
     margin: 0 auto;
@@ -75,9 +76,10 @@ body, html {
 }
 
 .lead {
-    font-size: 14px;
+    font-size: 24px;
     font-style: italic;
     margin-top: 20px;
+    margin-bottom: 8px;
 }
 
 .content-box ul {
@@ -407,12 +409,22 @@ footer {
 
     .container23 {
         min-width: 0;
+        display: block;
+        margin-left: 0;
     }
 
     .content-box {
-        max-width: 400px;
+        max-width: 500px;
         overflow: hidden;
         min-width: 0;
+        position: relative;
+        margin-top: 2rem;
+        left: 10px;
+    }
+
+    .right-side{
+        margin: 0;
+        left: 0;
         position: relative;
     }
 
@@ -456,16 +468,35 @@ footer {
         margin: 1rem 0 2rem 0;
     }
 
-    .content-box {
-        left: 40px;
-    }
-
     .gallery-detail{
         display: block;
     }
 }
 
 @media only screen and (max-width: 767px) and (min-width: 481px) {
+    .container23 {
+        min-width: 0;
+        display: block;
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .content-box {
+        max-width: 500px;
+        overflow: hidden;
+        min-width: 0;
+        position: relative;
+        margin-top: 6rem;
+        left: 10px;
+    }
+
+    .right-side{
+        top: 0;
+        margin: 0;
+        left: 0;
+        position: relative;
+    }
+
 
     .gallery-detail{
         grid-template-columns: 1fr 1fr;
